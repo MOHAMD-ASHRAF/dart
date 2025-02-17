@@ -1,11 +1,15 @@
 void main(){
-  String name = 'mohego';
+  String name = '';
 
-  print(stringLength(name));
+  print(isEmpty(name));
 }
 
 
-// fun to get Length of string
+// fun to get lwnght of string
+isEmpty(String word){
+  stringLength(word) == 0 ? true : false;
+
+}
 
 stringLength(String word){
   int i = 0;
