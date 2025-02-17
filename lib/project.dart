@@ -5,6 +5,8 @@ void main(){
 }
 
 
+// fun to get Length of string
+
 stringLength(String word){
   int i = 0;
   while(true){
