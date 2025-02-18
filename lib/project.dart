@@ -1,7 +1,6 @@
 void main(){
-  String name = 'sdfsd';
-
-  print(chartAt(name,3));
+  String name = '';
+  print(name.indexOf(''));
 }
 
 chartAt(String word , int index){
@@ -10,13 +9,11 @@ chartAt(String word , int index){
   } on RangeError{
     throw Exception(RangeError);
   }
-
 }
 
 
 isEmpty(String word){
   stringLength(word) == 0 ? true : false;
-
 }
 
 // fun to get lwnght of string
@@ -31,5 +28,4 @@ stringLength(String word){
     }
   }
   return i;
-
 }
