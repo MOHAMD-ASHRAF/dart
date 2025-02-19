@@ -2,12 +2,19 @@
 
 
 void main(){
-  List random = ['mohamed','ahmed','ali'];
-  List random2 = ['o','d','g'];
- List random3 = [...random,...random2];
 
-print(random3);
+  List number = [2,10,20,30,40,50,60,70,80,90,100];
+  List number2 = [];
 
+for(int i = 0 ; i < number.length ; i++){
+  if(number[i] >= 20){
+
+    number2.add(number[i] * 2);
+  }
+
+}
+
+  print(number2);
 
 
 }
