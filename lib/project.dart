@@ -5,5 +5,8 @@ void main() {
     'age': 24,
   };
   userNAme['job'] = 'programming';
-  print(userNAme);
+
+  userNAme.forEach((key ,value){
+    print('Key : $key , Value : $value');
+  });
 }
