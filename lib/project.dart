@@ -1,13 +1,9 @@
-
-
-
-
-void main(){
+void main() {
   Map userNAme = {
-    'df': 'df',
-    'sd' :12,
-    6: 'fd',
+    'name': 'mohamed',
+    'country': 'egypt',
+    'age': 24,
   };
-  print(userNAme['sd']);
+  userNAme['job'] = 'programming';
+  print(userNAme);
 }
-
