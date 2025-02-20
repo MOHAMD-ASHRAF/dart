@@ -3,11 +3,11 @@
 
 
 void main(){
-
-  Set student ={'mo', 'ashraf' , 'ali '};
-  student.add('value');
-  print(student);
-
-
+  Map userNAme = {
+    'df': 'df',
+    'sd' :12,
+    6: 'fd',
+  };
+  print(userNAme['sd']);
 }
 
