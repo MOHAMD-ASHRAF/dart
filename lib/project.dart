@@ -9,7 +9,6 @@ void main(){
 
  number2 = number.where((e) => e > 40).toList();
 
-  print(number2);
 
 
 }
